@@ -1,0 +1,113 @@
+body {
+    font-family: "Caveat", cursive;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.content {
+    margin-top: 100px;
+}
+h2 {
+    font-size: 48px;
+}
+h1 {
+    font-size: 96px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+.btn-primary {
+    display: block;
+    margin: 0 auto;
+    font-size: 24px;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+
+    /* About */
+
+
+.about-row {
+    display: flex;  
+    flex: 1;
+    margin-top: 50px;
+}
+
+.about-col-left {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.about-col-right {
+    flex: 1;
+}
+
+.my-photo {
+    width: 450px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+    padding: 10px 0;
+}
+
+.about-heading {
+    font-size: 72px;
+}
+
+.about-content, li, .about-content-special {
+    font-size: 32px;
+    text-indent: 20px;
+} 
+
+.about-content-special {
+    color: brown;
+    font-weight: bold;
+}
+
+
+@media (max-width: 1024px) {
+    .my-photo {
+        width: 100%;
+    }
+}
+
+
+
+
+
+/* Contacts */
+.container-contacts {
+    background-color: #F9F7FE;
+}
+.contacts {
+    
+    border-radius: 30px;
+    
+}
+.contacts p {
+    font-size: 32px;
+}
+
+.contacts h2 {
+    color: brown;
+} 
+
+.contact-link {
+    text-align: center;
+    font-size: 40px;
+}
