@@ -29,6 +29,7 @@ h3 {
 
 .btn-primary {
     display: block;
+    width: 200px;
     margin: 0 auto;
     font-size: 24px;
 }
@@ -86,8 +87,24 @@ h3 {
     }
 }
 
+  /* My work */
+.weather-project {
+    text-align: center;
+}
 
+.work-content-main-heading {
+    font-size: 60px;
+    text-align: center;
+}
 
+.work-content-heading {
+    color: orange;
+    font-size: 48px;
+}
+
+.about-Ukraine {
+    text-align: center;
+}
 
 
 /* Contacts */
@@ -104,10 +121,18 @@ h3 {
 }
 
 .contacts h2 {
-    color: brown;
+    color:#6C63FF;
 } 
 
 .contact-link {
     text-align: center;
     font-size: 40px;
+}
+
+.social-media-facebook:hover, .social-media-instagram:hover, .social-media-twitter:hover {
+    transform: scale(1.5);
+}
+
+.mail {
+    color: #6C63FF;
 }
