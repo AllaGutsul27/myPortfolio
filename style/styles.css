@@ -5,33 +5,33 @@ body {
 .nav-link {
     color: white;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .navbar-brand {
     font-weight: bold;
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 .content {
     margin-top: 100px;
 }
 h2 {
-    font-size: 48px;
+    font-size: 3rem;
 }
 h1 {
-    font-size: 96px;
+    font-size: 6rem;
 }
 
 h3 {
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 
 .btn-primary {
     display: block;
     width: 200px;
     margin: 0 auto;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .active {
@@ -67,11 +67,11 @@ h3 {
 }
 
 .about-heading {
-    font-size: 72px;
+    font-size: 4.5rem;
 }
 
 .about-content, li, .about-content-special {
-    font-size: 32px;
+    font-size: 2rem;
     text-indent: 20px;
 } 
 
@@ -81,11 +81,6 @@ h3 {
 }
 
 
-@media (max-width: 1024px) {
-    .my-photo {
-        width: 100%;
-    }
-}
 
   /* My work */
 .weather-project {
@@ -93,13 +88,13 @@ h3 {
 }
 
 .work-content-main-heading {
-    font-size: 60px;
+    font-size: 3.75rem;
     text-align: center;
 }
 
 .work-content-heading {
     color: orange;
-    font-size: 48px;
+    font-size: 3rem;
 }
 
 .about-Ukraine {
@@ -112,27 +107,95 @@ h3 {
     background-color: #F9F7FE;
 }
 .contacts {
-    
     border-radius: 30px;
     
 }
 .contacts p {
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 .contacts h2 {
-    color:#6C63FF;
+    color: blue;
 } 
 
 .contact-link {
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .social-media-facebook:hover, .social-media-instagram:hover, .social-media-twitter:hover {
-    transform: scale(1.5);
+    transform: scale(2);
+
 }
 
 .mail {
     color: #6C63FF;
+}
+
+@media (max-width:1024px) {
+    html {
+        font-size: 14px; 
+    }
+
+    .my-photo {
+        width: 100%;
+}
+}
+
+@media (max-width:850px) {
+    html {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width:768px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:700px) {
+
+    .weather-project,
+    .about-Ukraine {
+        width: 580px;
+        margin: 0 auto;
+    }
+
+    .btn-primary {
+        width: 120px;
+    }
+}
+
+@media (max-width:650px) {
+
+    .weather-project img,
+    .about-Ukraine img {
+        display: none;
+    }
+}
+@media (max-width:600px) {
+
+    .weather-project,
+    .about-Ukraine {
+        width: 500px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:576px) {
+    html {
+        font-size: 8px;
+    }
+}
+
+@media (max-width:425px) {
+    html {
+        font-size: 6px;
+    }
+
+    .work-content-heading {
+        text-align: center;
+    }
 }
