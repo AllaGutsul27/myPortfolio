@@ -153,6 +153,15 @@ h3 {
     html {
         font-size: 10px;
     }
+
+    .about-row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .my-photo {
+        width: 300px; 
+    }
 }
 
 @media (max-width:700px) {
@@ -193,6 +202,10 @@ h3 {
 @media (max-width:425px) {
     html {
         font-size: 6px;
+    }
+
+    .my-photo {
+        width: 200px;
     }
 
     .work-content-heading {
