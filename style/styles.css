@@ -38,6 +38,10 @@ h3 {
     text-decoration: underline;
 }
 
+footer {
+    font-size: 1.7rem;
+    margin-bottom: 30px;
+}
 
     /* About */
 
@@ -131,6 +135,8 @@ h3 {
 .mail {
     color: #6C63FF;
 }
+
+
 
 @media (max-width:1024px) {
     html {
