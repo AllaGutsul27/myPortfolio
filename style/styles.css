@@ -157,7 +157,7 @@ h3 {
 
 @media (max-width:768px) {
     html {
-        font-size: 10px;
+        font-size: 16px;
     }
 
     .about-row {
@@ -171,6 +171,10 @@ h3 {
 }
 
 @media (max-width:700px) {
+    .contacts-row {
+        display: flex;
+        flex-direction: column;
+    }
 
     .weather-project,
     .about-Ukraine {
@@ -179,7 +183,9 @@ h3 {
     }
 
     .btn-primary {
-        width: 120px;
+        width: 200px;
+        margin-top: 20px;
+        margin-bottom: 40px;
     }
 }
 
@@ -201,13 +207,13 @@ h3 {
 
 @media (max-width:576px) {
     html {
-        font-size: 8px;
+        font-size: 16px;
     }
 }
 
 @media (max-width:425px) {
     html {
-        font-size: 6px;
+        font-size: 16px;
     }
 
     .my-photo {
