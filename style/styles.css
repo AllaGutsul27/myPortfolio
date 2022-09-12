@@ -87,8 +87,8 @@ h3 {
 
 
   /* My work */
-.weather-project, .about-Ukraine {
-    text-align: center;
+.weather-project {
+    margin: 0 auto;
     width: 600px;
 }
 
@@ -102,7 +102,10 @@ h3 {
     font-size: 3rem;
 }
 
-
+.about-Ukraine {
+    width: 600px;
+    margin: 0 auto;
+}
 
 /* Contacts */
 .container-contacts {
