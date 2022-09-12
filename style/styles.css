@@ -103,6 +103,7 @@ h3 {
 
 .about-Ukraine {
     text-align: center;
+    
 }
 
 
@@ -140,7 +141,7 @@ h3 {
 
 @media (max-width:1024px) {
     html {
-        font-size: 14px; 
+        font-size: 16px; 
     }
 
     .my-photo {
@@ -171,6 +172,7 @@ h3 {
 }
 
 @media (max-width:700px) {
+
     .contacts-row {
         display: flex;
         flex-direction: column;
@@ -190,6 +192,12 @@ h3 {
 }
 
 @media (max-width:650px) {
+h1, .about-heading {
+        font-size: 3.5rem;
+    }
+    h1 {
+        font-weight: bold;
+    }
 
     .weather-project img,
     .about-Ukraine img {
