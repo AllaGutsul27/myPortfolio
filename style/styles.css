@@ -92,6 +92,11 @@ h3 {
     width: 600px;
 }
 
+.weather-project img {
+    text-align: center;
+    width: 600px;
+}
+
 .work-content-main-heading {
     font-size: 3.75rem;
     text-align: center;
@@ -105,6 +110,10 @@ h3 {
 .about-Ukraine {
     width: 600px;
     margin: 0 auto;
+}
+.about-Ukraine img {
+    text-align: center;
+    width: 600px;
 }
 
 /* Contacts */
@@ -208,7 +217,7 @@ h1, .about-heading {
 
     .weather-project,
     .about-Ukraine {
-        width: 500px;
+        width: 300px;
         margin: 0 auto;
     }
 }
